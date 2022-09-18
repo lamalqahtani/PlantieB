@@ -73,6 +73,7 @@ input{
 #most-reads{
     position: relative;
     background-image: url('./assets/miniMostReads.png');
+    background-size: cover;
     height: 647px;
     min-width: 1190px;
     margin-left: 10%;
