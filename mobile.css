@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+body{
+    background-color: #F3FFFC;
+    margin-top: 20px;
+    font-family: 'Inria Serif', serif;
+}
+
+.nav{
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+#logo{
+    display: inline;
+    font-size: 32px;
+    font-weight: 700px;
+}
+
+#regester{
+    display: block;
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 5px;
+}
+
+#reg-form{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 510.38px;
+    border-radius: 10px;
+    border: 4px solid #342B24;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 5;
+}
+input{
+    display: block;
+    margin-top: 10px;
+    width: 261.22px;
+    height: 47.44px;
+    border: 4px solid #342B24;
+    border-radius: 10px;
+}
+#btn-signup{
+    width: 25%;
+    color: #F3FFFC;
+    background-color: #1C2B16;
+}
+#plants-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* width: 800px; */
+    width: 100%;
+    /* height: 600px; */
+    height: 70%;
+    border: 4px solid #342B24;
+    border-radius: 10px;
+    z-index: 1;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 856px;
+}
+
+/* most reads section */
+#most-reads{
+    position: relative;
+    /* background-image: url('./assets/miniMostReads.png'); */
+    background-color: #FFF8F8;
+    background-size:cover;
+    height:auto;
+    min-width: 100%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    /* background-repeat:no-repeat; */
+    text-align: center;
+    z-index: 4;
+    right: 0px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-border{
+    width: 241px;
+    height: 264px;
+    border: 4px solid #342B24;
+    border-radius: 10px;
+}
+.card-border-img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 241px;
+    height: 264px;
+    border: 4px solid #342B24;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+#most-reads-title{
+    font-size: 34px;
+    padding: 40px;
+}
+.card-img{
+    position: relative;
+}
+.card-text{
+    margin-top: 40px;
+}
+
+
+/* mission section */
+.mission-section{
+    position: relative;
+    top: -100px;
+    left: 0px;
+    z-index: 1;
+    text-align: center;
+    padding: 60px;
+    /* width: 100%;
+    height: 50%; */
+}
+.mission-section::after{
+    content: '';
+    background-image: url('./assets//missionBackground.jpg');
+    opacity: 0.2;
+    position: absolute;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+#mission-title{
+    font-size: 34px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+/* #mission-text{
+    width: 25%;
+} */
+
+
+/* footer section */
+
+.footer{
+    text-align: center;
+    background-color: #FFF8F8;
+    margin-top: -100px;
+    padding: 40px;
+}
+
+#footer-title{
+    font-size: 30px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+#footer-img{
+    width: 200px;
+    height: 50px;
+}
