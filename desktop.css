@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
 @media(min-width:700px){
-
+    .burger-nav, #b-menu{
+        display: none;
+    }
+    header nav{
+        display: block;
+    }
     #reg-form{
         left: 20%;
         top: 20%;

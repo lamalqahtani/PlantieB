@@ -12,15 +12,15 @@ header{
     align-items: center;
     padding: 0px 20px;
     flex-wrap: wrap;
+    width: 95%;
     /* margin-bottom: 25px; */
     /* padding-left: 10px; */
     /* background-color: green; */
 }
-/* nav{
-    display: flex;
-    justify-content: space-between;
-} */
-nav a{
+header nav{
+    display: none;
+}
+header a{
     display: inline-block;
     text-decoration: none;
     padding: 10px 20px;
@@ -28,16 +28,33 @@ nav a{
     color: #1C2B16;
 }
 
-nav a:hover{
+header a:hover{
     color: pink;
 }
-
+header ul{
+    width: 100%;
+    text-align: center;
+}
+header ul li{
+    list-style: none;
+    background-color: #1C2B16;
+}
+header ul li a{
+    color: white;
+}
 #logo{
     cursor: pointer;
     font-size: 2.3rem;
     font-weight: bold;
 }
-
+.burger-nav{
+    display: none;
+    position: relative;
+    top: -40px;
+}
+#b-menu{
+    font-size: 43px;
+}
 #regester{
     display: block;
     font-size: 32px;
