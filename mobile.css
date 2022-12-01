@@ -2,18 +2,40 @@
 body{
     background-color: #F3FFFC;
     margin: 20px 0px 0px 0px;
+    font-size: 1.2rem;
     font-family: 'Inria Serif', serif;
 }
 
-.nav{
-    margin-bottom: 25px;
-    padding-left: 10px;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+    /* margin-bottom: 25px; */
+    /* padding-left: 10px; */
+    /* background-color: green; */
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+} */
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    flex-shrink: 1;
+    color: #1C2B16;
+}
+
+nav a:hover{
+    color: pink;
 }
 
 #logo{
-    display: inline;
-    font-size: 32px;
-    font-weight: 700px;
+    cursor: pointer;
+    font-size: 2.3rem;
+    font-weight: bold;
 }
 
 #regester{
